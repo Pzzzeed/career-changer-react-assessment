@@ -36,3 +36,7 @@
   align-items: center;
   justify-content: center;
 }
+
+.table-action {
+  width: 120px;
+}

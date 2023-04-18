@@ -94,16 +94,20 @@ const Admin = (props) => {
                 <th>Name</th>
                 <th>Last Name</th>
                 <th>Position</th>
-                <th>Action</th>
-                <th>
-                  <div class="d-grid">
+                <th className="table-action">
+                  {/* <div className="container"> */}
+                  {/* <div className="row"> */}
+                  {/* <div className="col mt-auto">Action</div> */}
+                  <div className="d-grid">
                     <button
                       onClick={handleDeleteAll}
-                      class="btn btn-danger w-full"
+                      className="btn btn-danger w-full"
                     >
-                      Clear
+                      Delete All
                     </button>
                   </div>
+                  {/* </div> */}
+                  {/* </div> */}
                 </th>
               </tr>
             </thead>
@@ -117,12 +121,11 @@ const Admin = (props) => {
                     <td>
                       <button
                         onClick={() => handleDelete(employee.id)}
-                        className="btn btn-outline-danger"
+                        className="btn btn-outline-danger w-100"
                       >
                         Delete
                       </button>
                     </td>
-                    <td></td>
                   </tr>
                 );
               })}

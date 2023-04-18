@@ -30,6 +30,10 @@ const Home = () => {
   const [employees, setEmployees] = useState(mockEmployees);
   const [sector, setSector] = useState("");
 
+  // useEffect(() => {
+  //   setSector("other");
+  // }, []);
+
   if (sector === "admin") {
     return (
       <div className="home-bg">

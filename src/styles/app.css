@@ -1,0 +1,38 @@
+.home-bg {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+.flex-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100vw;
+  height: 69px;
+}
+
+.flex-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+  padding-right: 50px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.owner-box {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+}
+
+.owner-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
